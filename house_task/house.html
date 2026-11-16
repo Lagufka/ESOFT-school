@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>Дом</title>
+    <style>
+        body {
+            background-color: #7cbe00;
+        }
+
+        .house {
+            position: relative;
+            width: 300px;
+            margin: 150px auto;
+        }
+
+        .walls {
+            width: 300px;
+            height: 200px;
+            background-color: #e6a15c;
+            position: relative;
+        }
+
+        .roof {
+            width: 0;
+            height: 0;
+            border-left: 170px solid transparent;
+            border-right: 170px solid transparent;
+            border-bottom: 120px solid #a83232;
+            margin-left: -20px;
+        }
+
+        .window {
+            width: 60px;
+            height: 60px;
+            background-color: #87ceeb;
+            border: 5px solid white;
+            border-radius: 50%;
+            position: absolute;
+            top: 50px;
+            left: 115px;
+        }
+
+        .door {
+            width: 55px;
+            height: 100px;
+            background-color: #754321;
+            position: absolute;
+            bottom: 0;
+            left: 30px;
+        }
+
+        .chimney {
+            width: 35px;
+            height: 90px;
+            background-color: #795548;
+            position: absolute;
+            top: 0;
+            right: 35px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="house">
+        <div class="chimney"></div>
+        <div class="roof"></div>
+        <div class="walls">
+            <div class="window"></div>
+            <div class="door"></div>
+        </div>
+    </div>
+
+</body>
+</html>
